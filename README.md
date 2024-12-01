@@ -31,7 +31,7 @@
   The chat data will be sourced using tools like **Twitch Chat Downloader** for historical data or using **Twitch IRC** for live chat scraping. The video data will be sourced from Twitch’s platform, specifically the URL of the video being analyzed.
 
 - **Overview of the data's structure and format**:  
-  The data will be structured in a JSON format, where each entry will contain the following fields:
+  The data will be structured in a CSV file, where each entry will contain the following fields:
   - **timestamp**: Time of the message.
   - **message**: Text content of the chat message.
   - **user**: Username of the person who posted the message.
